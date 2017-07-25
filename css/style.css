@@ -1,0 +1,74 @@
+/*COLORS*/
+
+
+/*
+red: #B3001B
+muted red: #931F1D
+yellow: #FCBA04
+blue: #19647E
+torquoise: #28AFB0
+*/
+
+#name-jumbotron {
+  background-color: #B3001B;
+  background-image: url('../img/me1.jpg');
+  background-size: auto 100%;
+  color: white;
+  font-family: 'Slabo 27px', serif;
+}
+
+#name-jumbotron h1{
+  background: rgba(100,100,100,0.3);
+  width: 100%; 
+}
+
+#name-jumbotron h3 {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+/* X-SMALL */
+
+@media only screen and (min-width: 0px) {
+  #name-jumbotron h3 {
+    display: none;
+  }
+}
+
+
+/* SMALL */
+
+@media only screen and (min-width: 576px) {
+  #name-jumbotron h3 {
+    display: none;
+  }
+}
+
+
+/* MEDIUM */
+
+@media only screen and (min-width: 768px) {
+  #name-jumbotron h3 {
+    display: none;
+  }
+}
+
+
+/* LARGE */
+
+@media only screen and (min-width: 992px) {
+  .wrapper {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+  #name-jumbotron {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #name-jumbotron h3 {
+    display: inline;
+  }
+}
