@@ -20,8 +20,16 @@ body{
 #welcome-text{
   background-color: #F0C808;
   color: white;
-  font-family: 'Quicksand', sans-serif;
   text-align: center;
+}
+
+#welcome-text #welcome-text-wrapper h1{
+  font-family: 'Playfair Display', serif;
+}
+
+
+#welcome-text #welcome-text-wrapper h4{
+  font-family: 'Quicksand', sans-serif;
 }
 
 
