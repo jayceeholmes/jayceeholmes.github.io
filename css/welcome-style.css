@@ -5,8 +5,8 @@
 red: #DD1C1A
 beige: #FFF1D0
 yellow: #F0C808
-blue: 07A0C3
-navy: #086788
+light blue: #07A0C3
+blue: #086788
 */
 
 
@@ -39,7 +39,7 @@ body{
 @media only screen and (min-width: 0px) {
 
   #welcome-text #welcome-text-wrapper h1{
-    font-size: 275%;
+    font-size: 200%;
   }
   #welcome-img{
     display: none;
@@ -119,6 +119,6 @@ body{
   }
 
   #welcome-img img{
-    max-height: 30%;
+    max-height: 30vh;
   }
 }
