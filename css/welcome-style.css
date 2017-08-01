@@ -41,8 +41,13 @@ body{
   #welcome-text #welcome-text-wrapper h1{
     font-size: 200%;
   }
+
   #welcome-img{
-    display: none;
+    padding: 2% 0 2% 0;
+  }
+
+  #welcome-img img{
+    max-width: 100%;
   }
 }
 
@@ -50,9 +55,6 @@ body{
 /* SMALL */
 
 @media only screen and (min-width: 576px) {
-  #welcome-img{
-    display: none;
-  }
 }
 
 
@@ -64,9 +66,6 @@ body{
     font-size: 300%;
   }
 
-  #welcome-img{
-    display: none
-  }
 }
 
 /* LARGE */
@@ -115,6 +114,7 @@ body{
   #welcome-img{
     border-radius: 0;
     display: inline;
+    padding: 0 1% 0 1%;
     /*background-color: black;*/
   }
 
