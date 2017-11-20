@@ -26,22 +26,76 @@ body {
   color: #F2F4F3;
 }
 
-h1{
+#title-container{
+  height: 100vh;
+  wifth: 100vw;
+  position: relative;
+}
+
+#title-wrapper{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header{
   font-size: 20vw;
   color: #D90368;
   font-family:'Oswald', sans-serif;
 }
 
-h1 mark{
+.header mark{
   background-color: rgba(255, 255, 255, 0);
   color: #5DFDCB;
   margin-left: -3vw;
   margin-right: -3vw;
 }
 
-p{
+.sub-header{
   font-family: 'Oswald', sans-serif;
 }
+
+.jumbotron{
+  background-color: #5DFDCB;
+  color:   #D90368;
+  font-style: bold;
+  font-family:'Oswald', sans-serif;
+  height: 50vh;
+  width: 100vw;
+  position: relative;
+}
+
+#jumbotron-container{
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#description-lead{
+  font-size: 5vw;
+}
+
+.description{
+  font-style: bold;
+  font-family:'Oswald', sans-serif;
+  height: 50vh;
+  width: 100vw;
+  position: relative;
+}
+
+#description-container{
+  position: relative;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -30%);
+}
+
+#description-paragraph{
+  font-size: 2vw;
+}
+
 
 /*----------------------------------------------------------------------------*/
 /* iPHONE */
@@ -49,7 +103,7 @@ p{
 /*----------------------------------------------------------------------------*/
 
 @media only screen and (min-width: 320px) {
-  p{
+  .sub-header{
       font-size: 5vw;
   }
 
@@ -94,7 +148,7 @@ p{
 /*----------------------------------------------------------------------------*/
 
 @media only screen and (min-width: 992px) {
-  p{
+  .sub-header{
       font-size: 3vw;
   }
 
