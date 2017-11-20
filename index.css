@@ -43,6 +43,12 @@ p{
   font-family: 'Oswald', sans-serif;
 }
 
+#video{
+    min-width: 100% !important;
+    width: auto !important;
+    height: auto !important;
+}
+
 
 /*----------------------------------------------------------------------------*/
 /* iPHONE */
