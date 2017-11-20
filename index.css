@@ -28,7 +28,7 @@ body {
 
 #title-container{
   height: 100vh;
-  wifth: 100vw;
+  width: 100vw;
   position: relative;
 }
 
@@ -57,11 +57,11 @@ body {
 }
 
 .jumbotron{
-  background-color: #5DFDCB;
+  background-color: #FFFFFF;
   color:   #D90368;
   font-style: bold;
   font-family:'Oswald', sans-serif;
-  height: 50vh;
+  height: 100vh;
   width: 100vw;
   position: relative;
 }
@@ -97,6 +97,31 @@ body {
 }
 
 
+#bottom-title-container{
+  height: 25vh;
+  width: 100vw;
+  position: relative;
+}
+
+#bottom-title-wrapper{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.bottom-header{
+  font-size: 5vw;
+  color: #D90368;
+  font-family:'Oswald', sans-serif;
+}
+
+.bottom-sub-header{
+  font-family: 'Oswald', sans-serif;
+  font-size: 2vw;
+}
+
 /*----------------------------------------------------------------------------*/
 /* iPHONE */
 /* Custom, iPhone Retina */
@@ -113,12 +138,25 @@ body {
   	padding-top: 25px;
   	height: 0;
   }
+  
   .videoWrapper iframe {
   	position: absolute;
   	top: 0;
   	left: 0;
   	width: 100%;
   	height: 100%;
+  }
+
+  .jumbotron{
+    height: 50vh;
+  }
+
+  .bottom-header{
+    font-size: 5vw;
+  }
+
+  .bottom-sub-header{
+    font-size: 4vw;
   }
 
 }
@@ -167,6 +205,18 @@ body {
     left: 50%;
     transform: translate(-50%, 0);
   }
+  .jumbotron{
+    height: 100vh;
+  }
+
+  .bottom-header{
+    font-size: 5vw;
+  }
+
+  .bottom-sub-header{
+    font-size: 3vw;
+  }
+
 }
 
 
