@@ -5,12 +5,12 @@
 
 
 /*
-  black :  #0A0908;
-  dark  : #22333B;
+  black : #0A0908;
   white : #F2F4F3;
-  beige : #EAD2AC;
-  rose  : #DF928E;
-  purple: #713558;
+  aqua:   #5DFDCB;
+  yellow: #FFE74C;
+  pink:   #D90368;
+  green:  #7FB800;
 */
 
 
@@ -27,14 +27,20 @@ body {
 }
 
 h1{
-  font-size: 25vw;
+  font-size: 20vw;
+  color: #D90368;
+  font-family:'Oswald', sans-serif;
 }
 
 h1 mark{
-  background-color: #0A0908;
-  color: #713558;
+  background-color: rgba(255, 255, 255, 0);
+  color: #5DFDCB;
   margin-left: -3vw;
   margin-right: -3vw;
+}
+
+p{
+  font-family: 'Oswald', sans-serif;
 }
 
 
@@ -44,6 +50,9 @@ h1 mark{
 /*----------------------------------------------------------------------------*/
 
 @media only screen and (min-width: 320px) {
+  p{
+      font-size: 5vw;
+  }
 }
 
 
@@ -71,6 +80,9 @@ h1 mark{
 /*----------------------------------------------------------------------------*/
 
 @media only screen and (min-width: 992px) {
+  p{
+      font-size: 3vw;
+  }
 }
 
 
